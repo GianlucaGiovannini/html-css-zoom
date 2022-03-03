@@ -26,6 +26,9 @@ img {
 
 /* #endregion Common */
 
+
+/* #region Utility */
+
 .d-flex {
     display: flex;
 }
@@ -33,6 +36,9 @@ img {
 .p-relative {
     position: relative;
 }
+
+
+/* #endregion Utility */
 
 
 /* #region Main */
@@ -75,6 +81,10 @@ main {
     left: 0;
 }
 
+.card:hover {
+    box-shadow: 0px 0px 2px 3px #fcfcfc75;
+}
+
 
 /* #endregion Main */
 
@@ -92,6 +102,10 @@ header {
 
 header [class^="item"] {
     text-align: center;
+}
+
+header [class^="item"]:hover .text {
+    color: var(--active-nav)
 }
 
 header a.icon {
@@ -117,6 +131,10 @@ header a.icon {
 .angle a {
     color: white;
     text-decoration: none;
+}
+
+.angle:hover {
+    transform: rotate(90deg)
 }
 
 #active {
