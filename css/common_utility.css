@@ -6,11 +6,19 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /* #endregion Common */
 
 
 /* #region Utility */
+
+.d-flex {
+    display: flex;
+}
 
 
 /* #endregion Utility */
