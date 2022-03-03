@@ -34,10 +34,6 @@ img {
     position: relative;
 }
 
-.bg-red {
-    background-color: red;
-}
-
 
 /* #region Main */
 
@@ -45,8 +41,8 @@ main {
     background-color: var(--black);
     color: white;
     width: 100vw;
-    padding: 80px 80px 20px;
     height: calc(100vh - 80px);
+    padding: 80px 80px 20px;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
@@ -75,7 +71,7 @@ main {
     font-size: .9rem;
     padding: 5px;
     position: absolute;
-    bottom: 12px;
+    bottom: 0;
     left: 0;
 }
 
