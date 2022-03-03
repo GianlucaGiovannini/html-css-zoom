@@ -34,6 +34,10 @@ img {
     position: relative;
 }
 
+.bg-red {
+    background-color: red;
+}
+
 
 /* #region Main */
 
@@ -55,10 +59,15 @@ main {
 
 .view>a {
     background-color: var(--bg-btn);
-    font-size: .75rem;
+    font-size: .92rem;
     padding: 5px;
     border-radius: 0.25rem;
     margin: 0 5px;
+}
+
+.card {
+    width: 240px;
+    height: 140px;
 }
 
 .user-card {
@@ -75,6 +84,54 @@ main {
 
 
 /* #region Header */
+
+header {
+    background-color: var(--bg-nav);
+    color: white;
+    padding-left: 10px;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header [class^="item"] {
+    text-align: center;
+}
+
+header a.icon {
+    font-size: 1.7rem;
+    color: white;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.menu-left,
+.menu-center {
+    column-gap: 25px;
+}
+
+.text {
+    font-size: 15px;
+}
+
+.angle {
+    align-self: center;
+}
+
+.angle a {
+    color: white;
+    text-decoration: none;
+}
+
+#active {
+    color: var(--active-nav)
+}
+
+.end-menu a {
+    background-color: var(--bg-btn);
+    color: red;
+    padding: 30px;
+}
 
 
 /* #endregion Header */
