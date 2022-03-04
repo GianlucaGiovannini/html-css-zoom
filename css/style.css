@@ -89,9 +89,9 @@ main {
 /* #endregion Main */
 
 
-/* #region Header */
+/* #region footer */
 
-header {
+footer {
     background-color: var(--bg-nav);
     color: white;
     padding-left: 10px;
@@ -100,15 +100,15 @@ header {
     align-items: center;
 }
 
-header [class^="item"] {
+footer [class^="item"] {
     text-align: center;
 }
 
-header [class^="item"]:hover .text {
+footer [class^="item"]:hover .text {
     color: var(--active-nav)
 }
 
-header a.icon {
+footer a.icon {
     font-size: 1.7rem;
     color: white;
     margin-bottom: 5px;
@@ -148,4 +148,4 @@ header a.icon {
 }
 
 
-/* #endregion Header */
+/* #endregion footer */
