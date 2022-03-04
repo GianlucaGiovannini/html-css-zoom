@@ -52,6 +52,7 @@ main {
     padding: 80px 80px 20px;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    overflow-y: auto;
 }
 
 .view {
@@ -96,6 +97,7 @@ footer {
     background-color: var(--bg-nav);
     color: white;
     padding-left: 10px;
+    width: 100vw;
     height: 80px;
     justify-content: space-between;
     align-items: center;
